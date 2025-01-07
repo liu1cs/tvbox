@@ -1,63 +1,63 @@
 {
-  "spider": "https://gitee.com/yhykejiku/TencentFanghong/raw/main/spider.jar",
-  "wallpaper": "https://api.likepoems.com/img/bing",
-  "logo": "https://d.kstore.dev/download/7336/tv/logo.gif",
-  "warningText": "预防接口失效丨请关注公众号丨YHY黑科技",
-  "sites": [
+    "spider" : "httPS://基捷.com/Yhykejiku/腾凡港/生/主要/蜘蛛" ,    "spider" : "httPS://基捷.com/Yhykejiku/腾凡港/生/主要/蜘蛛" ,
+      "wallpaper" : "https://api.likepoems.com/img/bing" , "wallpaper" : "https://api.likepoems.com/img/bing" ,
+     "logo" : "https://d.kstore.dev/download/7336/tv/logo.gif" , "logo" : "https://d.kstore.dev/download/7336/tv/logo.gif" ,
+    "warningText" : "预防接口失效丨请关注公众号丨YHY黑科技" , "warningText" : "预防接口失效丨请关注公众号丨YHY黑科技" ,
+     "sites" : [  "sites" : [
+     { {
+           "key" : "小海酷玩" , "key" : "小海酷玩" ,
+          "name" : "黑盒" , "name" : "黑盒" ,
+         "type" : 3 , "type" : 3 ,
+        "api" : "csp_Douban" , "api" : "csp_Douban" ,
+       "searchable" : 0"searchable" : 0
+         } ,
     {
-      "key": "小海酷玩",
-      "name": "黑盒",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
-    },
+           "key" : "预告" ,
+           "name" : "新片｜预告" ,
+           "type" : 3 ,
+           "api" : "csp_YGP" ,
+           "searchable" : 0
+         } ,
     {
-      "key": "预告",
-      "name": "新片｜预告",
-      "type": 3,
-      "api": "csp_YGP",
-      "searchable": 0
-    },
+           "key" : "本地" ,
+            "name" : "本地｜视频" ,
+            "type" : 3 ,
+            "api" : "csp_LocalFile"
+          } ,
     {
-      "key": "本地",
-      "name": "本地｜视频",
-      "type": 3,
-      "api": "csp_LocalFile"
-    },
-    {
-      "key": "配置中心",
-      "name": "配置｜中心",
-      "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
+           "key" : "配置中心" ,
+          "name" : "配置｜中心" ,
+         "type" : 3 ,
+        "api" : "csp_Config" , "api" : "csp_Config" ,
+        "searchable" : 0 , "searchable" : 0 ,
+          "changeable" : 0 ,
+         "indexs" : 0 ,
+         "style" : {
+         "type" : "rect" ,"type" : "rect" ,
+          "ratio" : 1.597
       }
-    },
+      } ,
     {
-      "key": "影视配置",
-      "name": "影视｜配置",
-      "type": 3,
-      "api": "csp_Wexconfig",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "jar": "https://gitee.com/yhykejiku/TencentFanghong/raw/main/wex.jar"
-    },
+        "key" : "影视配置" ,
+        "name" : "影视｜配置" ,
+        "type" : 3 ,
+        "api" : "csp_Wexconfig" ,
+        "searchable" : 0 ,
+        "changeable" : 0 ,
+        "indexs" : 0 ,
+        "style" : {
+          "type" : "rect" ,
+          "ratio" : 1.597
+        } ,
+        "jar" : "https://基捷.com/Yhykejiku/腾凡港/生/梅恩/韦克斯.贾尔"
+      } ,
     {
-      "key": "厂长弹幕",
-      "name": "厂长｜弹幕",
-      "type": 3,
-      "api": "csp_Czzy",
-      "searchable": 1,
-      "quickSearch": 1,
+        "key" : "厂长弹幕" ,
+        "name" : "厂长｜弹幕" ,
+        "type" : 3 ,
+        "api" : "csp_Czzy" ,
+        "searchable" : 1 ,
+        "quickSearch" : 1 ,
       "filterable": 1,
       "ext": {
         "danmu": true
@@ -2234,7 +2234,8 @@
     {
       "name": "AI直播",
       "type": 0,
-      "url": "https://gitee.com/liu-xihai/direct-seeding/raw/master/%E7%94%B5%E4%BF%A1.txt",
+      "url": "https://github.moeyy.xyz/https://github.com/liu1cs/tv/blob/main/dxzb.txt
+",
       "playerType": 1,
       "timeout": 10
     },
